@@ -1,9 +1,11 @@
 ### Tugas Praktikum 02 - Pemograman Web 1
-Nama : Eko Muchamad Haryono
-Kelas : TI - 02
-Prodi : Teknik Informatika
-Dealine Tugas : 03 Oktober 2023 ==>> 17 Oktober 2023
-Mata Kuliah : Pemograman Web 1 (PW1)
+<hr />
+
+Nama : Eko Muchamad Haryono <br />
+Kelas : TI - 02 <br />
+Prodi : Teknik Informatika <br />
+Dealine Tugas : 03 Oktober 2023 ==>> 17 Oktober 2023 <br />
+Mata Kuliah : Pemograman Web 1 (PW1) <br />
 
 <center><b>Penjelasan Tugas </b></center><br />
 
