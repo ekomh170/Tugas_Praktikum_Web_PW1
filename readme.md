@@ -33,5 +33,14 @@
 <h3>Hasil Preview Tugas : </h3>
 
 1. Tugas Utama = Tampilan Produk 
+<!-- <img src="Praktikum_02/assets/img/readme/produk_eko_muchamad_haryono.png" alt="Tampilan Produk"> -->
 
 2. Sub Tugas = Tampilan CV
+<!-- <img src="Praktikum_02/assets/img/readme/cv_eko_muchamad_haryono.png" alt="Tampilan Produk"> -->
+
+<hr />
+<h3>Inspirasi : </h3>
+
+1. IMG :  https://unsplash.com/
+2. Favicon  : https://ais.nurulfikri.ac.id/ &  https://elena.nurulfikri.ac.id/
+3. ICO : https://www.flaticon.com/free-icons/store
