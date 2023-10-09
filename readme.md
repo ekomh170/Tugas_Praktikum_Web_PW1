@@ -9,9 +9,9 @@
 
 <hr />
 
-<center><b>Penjelasan Tugas </b></center><br />
+<h3>Penjelasan Tugas </h3><br />
 
-<b>Pengumpulan - Tugas Utama : (Masih Proses Pengerjaan)</b>
+<b>Pengumpulan - Tugas Utama : (Sudah Memasuki Tahap 80% Tinggal Melakukan Beberapa Perapihan)</b>
 1. Membuat Website Yang Menampilkan Produk Sesuai Dengan Topik Penjualan Menggunakan, HTML dan CSS Inline Yang Mencakup :
    
    - judul dan navigasi.
@@ -23,8 +23,15 @@
 2. Sub Tugas ==> Boleh Melampirkan Juga Tugas CV Bersamaan Dengan Tugas Produk -> Namun Tugas Produk Yang Tetap Menjadi Tugas Utama
 
 <hr />
-<center> <b>Informasi Lokasi Tugas : </b></center> <br />
-
+<h3>Informasi Lokasi Tugas : </h3>
 1. <b>Tugas Utama</b> = Directory Repo : <b>Praktikum_02/produk1_0110223079_ekomuchamadharyono.html</b>
 <br/><br />
 2. <b>Sub Tugas</b> = Directory Repo : <b>Praktikum_02/cv_0110223079_ekomuchamadharyono.html</b>
+
+<hr />
+
+<h3>Hasil Preview Tugas : </h3>
+
+1. Tugas Utama = Tampilan Produk 
+
+2. Sub Tugas = Tampilan CV
