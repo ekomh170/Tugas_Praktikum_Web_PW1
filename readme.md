@@ -1,11 +1,13 @@
 ### Tugas Praktikum 02 - Pemograman Web 1
 <hr />
 
-Nama : Eko Muchamad Haryono <br />
-Kelas : TI - 02 <br />
-Prodi : Teknik Informatika <br />
-Dealine Tugas : 03 Oktober 2023 ==>> 17 Oktober 2023 <br />
-Mata Kuliah : Pemograman Web 1 (PW1) <br />
+<b>Nama : </b>Eko Muchamad Haryono <br />
+<b>Kelas : </b>TI - 02 <br />
+<b>Prodi : </b>Teknik Informatika <br />
+<b>Dealine </b>Tugas : 03 Oktober 2023 ==>> 17 Oktober 2023 <br />
+<b>Mata Kuliah : </b>Pemograman Web 1 (PW1) <br />
+
+<hr />
 
 <center><b>Penjelasan Tugas </b></center><br />
 
@@ -20,10 +22,9 @@ Mata Kuliah : Pemograman Web 1 (PW1) <br />
 
 2. Sub Tugas ==> Boleh Melampirkan Juga Tugas CV Bersamaan Dengan Tugas Produk -> Namun Tugas Produk Yang Tetap Menjadi Tugas Utama
 
-
-   
-
+<hr />
 <center> <b>Informasi Lokasi Tugas : </b></center> <br />
 
 1. <b>Tugas Utama</b> = Directory Repo : <b>Praktikum_02/produk1_0110223079_ekomuchamadharyono.html</b>
+<br/><br />
 2. <b>Sub Tugas</b> = Directory Repo : <b>Praktikum_02/cv_0110223079_ekomuchamadharyono.html</b>
