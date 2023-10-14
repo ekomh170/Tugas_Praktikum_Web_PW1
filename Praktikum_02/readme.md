@@ -45,6 +45,6 @@ Lokasi Praktikum 02 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 <hr />
 <h3>Inspirasi : </h3>
 
-1. IMG :  https://unsplash.com/
+1. IMG - Gambar/Foto Pada Web :  https://unsplash.com/
 2. Favicon  : https://ais.nurulfikri.ac.id/ &  https://elena.nurulfikri.ac.id/
-3. ICO : https://www.flaticon.com/free-icons/store
+3. ICO - Logo : https://www.flaticon.com/free-icons/store
