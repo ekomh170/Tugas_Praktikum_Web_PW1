@@ -1,4 +1,4 @@
-### Pengumpulan Tugas Praktikum Web - Pemograman Web 1 - Pada Setiap Praktium
+### Repo - Pengumpulan Tugas Praktikum Web - Pemograman Web 1 - Pada Setiap Praktium
 <hr />
 
 <b>Nama : </b>Eko Muchamad Haryono <br />
@@ -24,6 +24,8 @@ Lokasi Praktikum 02 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 <hr />
 
 <b>2. Nama Folder : Praktikum_03 </b>
+
+Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03">Praktikum_03/</a>
    - Form Produk (Tugas Utama) = Proses
    - Form Pizza (Sub Tugas) = Proses
    - Form (Sub Tugas) = Proses
