@@ -11,7 +11,7 @@
 
 <h3>Penjelasan Tugas </h3><br />
 
-<b>Pengumpulan - Tugas Utama :</b>
+<b>Pengumpulan - Tugas Utama : (Sudah Selesai)</b>
 1. Membuat Website Yang Menampilkan Produk Sesuai Dengan Topik Penjualan Menggunakan, HTML dan CSS Inline Yang Mencakup :
    
    Step Pengerjaan :
