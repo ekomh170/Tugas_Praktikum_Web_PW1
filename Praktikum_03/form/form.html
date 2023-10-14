@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pengguna - Eko Muchamad Haryono</title>
+</head>
+<body>
+    <h1>Formulir Pengguna</h1>
+    <br />
+    <form action="hasil.html" method="post">
+
+        <!-- Inputan Text -->
+        <label for="nama">Nama : </label>
+        <input type="text" name="name" required /> 
+        <br/><br/>
+
+        <!-- Inputan Number -->
+        <label for="usia">Usia : </label>
+        <input type="text" name="usia" id="usia" required />
+        <br/><br/>
+        
+        <!-- Inputan Textarea -->
+        <label for="alamat">Alamat : </label> <br/>
+        <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea> 
+        <br/><br/>
+
+        <label for="foto">Upload Foto Profile  :</label>
+        <input type="file" name="foto" id="foto">
+        <br/><br/>
+
+        <label for="hobi">Hobi : </label>
+        <input type="checkbox" name="Main Game" id="Main Game" value="Main Game" />Main Game
+        <input type="checkbox" name="Istirahat" id="Istirahat" value="Istirahat" />Istirahat 
+        <input type="checkbox" name="Tidur" id="Tidur" value="Tidur" />Tidur
+        <input type="checkbox" name="Membaca" id="Membaca" value="Membaca" />Membaca
+        <br /><br /> 
+
+        <label for="kota">Kota : </label>
+        <select name="kota" id="kota">
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Depok">Depok</option>
+        </select>
+        <br /><br />
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>

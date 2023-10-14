@@ -12,7 +12,7 @@
 <h3>Penjelasan Tugas </h3><br />
 
 <b>Tugas Utama :</b>
-1. Membuat Website <b>Form Produk dan Hasil Produk</b> Menggunakan, HTML dan CSS Inline :
+1. Membuat Website <b> Form Pemesanan Barang dan Hasil Pemesanan Barang</b> Menggunakan, HTML dan CSS Inline :
    
    Step Pengerjaan :
 
@@ -27,27 +27,32 @@
 3. Boleh Jika Ingin Melampirkan Tugas <b>Form Input Pengguna</b> di Samping Tugas Utama
 
 <hr />
-<h3>Informasi Lokasi Tugas : </h3>
-1. <b>Tugas Utama</b> = Directory Repo : <b></b>
+<h3>Informasi Lokasi Tugas : </h3><br />
+<b>Tugas Utama : </b>
+
+1. Form Pemesanan Barang dan Hasil Pemesanan Barang</br> = Directory Repo : <b></b>
 <br/><br />
-2. <b>Sub Tugas</b> = Directory Repo : <b></b>
 
-   - Sub Tugas = Form Pizza
+<b>Sub Tugas : </b>
 
-   -  Sub Tugas = Form Input Pengguna
+   2. Sub Tugas = Form Pizza dan Hasil Pizza  = Directory Repo :
+
+   3. Sub Tugas = Form Input Pengguna dan Hasil Input Pengguna </b> = Directory Repo : <b>
 <hr />
 
 <h3>Hasil Preview Tugas : </h3>
 
-1. Tugas Utama = Form Produk 
+Tugas Utama :
+
+1. Form Pemesanan Barang dan Hasil Pemesanan Barang
 <!-- <img src="assets/img/readme/produk_eko_muchamad_haryono.png" alt="Form Produk"> -->
 
-2. Sub Tugas
-   - Sub Tugas = Form Pizza
-   <!-- <img src="assets/img/readme/cv_eko_muchamad_haryono.png" alt="Form Pizza"> -->
+Sub Tugas :
 
-   -  Sub Tugas = Form Input Pengguna
-    <!-- <img src="assets/img/readme/cv_eko_muchamad_haryono.png" alt="Form Input Pengguna"> -->
+2. Sub Tugas = Form Pizza dan Hasil Pizza
+ 
+3. Sub Tugas = Form Input Pengguna dan Hasil Input Pengguna
+ 
 
 <hr />
 <h3>Inspirasi : </h3>
