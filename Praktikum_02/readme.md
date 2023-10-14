@@ -11,22 +11,26 @@
 
 <h3>Penjelasan Tugas </h3><br />
 
-<b>Pengumpulan - Tugas Utama : (Sudah Memasuki Tahap 80% Tinggal Melakukan Beberapa Perapihan)</b>
+<b>Pengumpulan - Tugas Utama :</b>
 1. Membuat Website Yang Menampilkan Produk Sesuai Dengan Topik Penjualan Menggunakan, HTML dan CSS Inline Yang Mencakup :
    
+   Step Pengerjaan :
+
    - judul dan navigasi.
    - bagian keranjang belanja isi nya judul produk, harga, gambar, dll
    - bagian deskripsi produk
 
 <b>Pengumpulan Sub Tugas : (Sudah Selasai)</b>
 
-2. Sub Tugas ==> Boleh Melampirkan Juga Tugas CV Bersamaan Dengan Tugas Produk -> Namun Tugas Produk Yang Tetap Menjadi Tugas Utama
+2. Sub Tugas = Boleh Melampirkan  CV Bersamaan Dengan Tugas Produk -> Namun Tugas Produk Yang Tetap Menjadi Tugas Utama
 
 <hr />
 <h3>Informasi Lokasi Tugas : </h3>
-1. <b>Tugas Utama</b> = Directory Repo : <b>Praktikum_02/produk1_0110223079_ekomuchamadharyono.html</b>
+Lokasi Praktikum 02 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_02">Praktikum_02/</a>
+
+1. <b>Tugas Utama</b> = Directory Repo : <b><a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/blob/ry_dev/Praktikum_02/produk1_0110223079_ekomuchamadharyono.html">Praktikum_02/produk1_0110223079_ekomuchamadharyono.html</b></a>
 <br/><br />
-2. <b>Sub Tugas</b> = Directory Repo : <b>Praktikum_02/cv_0110223079_ekomuchamadharyono.html</b>
+2. <b>Sub Tugas</b> = Directory Repo : <b><a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/blob/ry_dev/Praktikum_02/cv_0110223079_ekomuchamadharyono.html">Praktikum_02/cv_0110223079_ekomuchamadharyono.html</a></b>
 
 <hr />
 

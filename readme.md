@@ -10,7 +10,9 @@
 
 <h3>Praktikum Pemograman Web 01 (PW1) Tugas :</h3><br />
 
-<b>1. Praktikum_02</b>
+<b>1. Nama Folder : Praktikum_02 </b>
+
+Lokasi Praktikum 02 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_02">Praktikum_02/</a>
    - Produk == (Tugas Utama) = Selesai
    <img src="Praktikum_02/assets/img/readme/produk_eko_muchamad_haryono.png" alt="Tampilan Produk">
 
@@ -19,7 +21,9 @@
 
 <br />
 
-<b>2. Praktikum_03 </b>
+<hr />
+
+<b>2. Nama Folder : Praktikum_03 </b>
    - Form Produk (Tugas Utama) = Proses
    - Form Pizza (Sub Tugas) = Proses
    - Form (Sub Tugas) = Proses
