@@ -26,17 +26,17 @@ Lokasi Praktikum 02 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 <b>2. Nama Folder : Praktikum_03 - (Masih Dalam Proses Pengerjaan)</b>
 
 Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03">Praktikum_03/</a>
-   - Form Pemesanan Barang dan Hasil Pemesanan Barang/Form dan Hasil Produk (Tugas Utama) = Proses
+   - Form Pemesanan Barang dan Hasil Pemesanan Barang/Produk (Tugas Utama) = Proses =  Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form_produk">Praktikum_03/form_produk/</a>
       
       1. Form : 
       2. Hasil : 
 
-   - Form Pizza (Sub Tugas) = Proses
+   - Form Pizza (Sub Tugas) = Proses = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form_pizza">Praktikum_03/form_pizza/</a>
    
       1. Form :
       2. Hasil :
 
-   - Form (Sub Tugas) = Proses
+   - Form (Sub Tugas) = Proses = Lokasi = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form">Praktikum_03/form/</a>
 
       1. Form :
       2. Hasil :
