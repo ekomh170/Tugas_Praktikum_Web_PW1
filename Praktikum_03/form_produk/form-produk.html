@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pemesanan Barang - Eko Muchamad Haryono</title>
 </head>
-<body>
+
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
     <div style="background-color: #333; overflow: hidden;">
-        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
-        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Generate Link</a>
-        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Transaction History</a>
-        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Policy</a>
-        <a href="#" style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Logout</a>
+        <a href="#"
+            style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
+        <a href="#"
+            style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Generate
+            Link</a>
+        <a href="#"
+            style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Transaction
+            History</a>
+        <a href="#"
+            style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Policy</a>
+        <a href="#"
+            style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Logout</a>
     </div>
 
     <div style="padding: 20px;">
-        
+        <div style="display: flex; align-items: center;">
+            <div style="flex: 1;">
+                <img src="assets/img/form/ico_tambah_foto.png" alt="Gambar" style="width: 70%; height: auto;">
+                <div>
+                    <label for="foto"
+                        style="background-color: #4caf50; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;">Upload
+                        Foto</label>
+                    <input type="file" name="foto" id="foto" style="display: none;">
+                </div>
+            </div>
+
+            <div style="flex: 1; padding: 20px;">
+                <h2>Form Pemesanan Produk/Barang</h2>
+                <form action="hasil-produk.html">
+                    <div style="margin-bottom: 10px;">
+                        <label for="nama" style="display: block;">Title Here :</label>
+                        <input type="text" id="nama" name="nama" style="width: 100%; padding: 8px;">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="description" style="display: block;">Description :</label>
+                        <textarea type="text" id="description" maxlength="400"
+                            style="width: 100%; padding: 8px;"></textarea>
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="account_number" style="display: block;">Account Number :</label>
+                        <input type="number" id="account_number" name="account_number"
+                            style="width: 100%; padding: 8px;">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="bank" style="display: block;">Bank :</label>
+                        <select style="width: 100%; padding: 8px;">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: 10px;">
+                        <label for="transaction" style="display: block;">Transaction :</label>
+                        <input type="number" id="transaction" name="transaction" style="width: 35px; padding: 8px;">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="email" style="display: block;">Send To Mobile :</label>
+                        <input type="text" id="email" name="email" style="width: 100%; padding: 8px;">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="email" style="display: block;">Send To Email :</label>
+                        <input type="number" id="email" name="email" style="width: 100%; padding: 8px;">
+                    </div>
+                    <div>
+                        <button type="submit"
+                            style="background-color: #4caf50; color: white; border: none; padding: 10px 20px; cursor: pointer;">Generate
+                            Nabr Link</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
     </div>
 </body>
+
 </html>
