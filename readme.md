@@ -39,4 +39,4 @@ Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
    - Form (Sub Tugas) = Proses
 
       1. Form :
-      2. Hasil 
+      2. Hasil :
