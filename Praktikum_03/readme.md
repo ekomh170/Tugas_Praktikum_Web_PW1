@@ -45,13 +45,12 @@
 Tugas Utama :
 
 1. Form Pemesanan Barang dan Hasil Pemesanan Barang
-<!-- <img src="assets/img/readme/produk_eko_muchamad_haryono.png" alt="Form Produk"> -->
 
 Sub Tugas :
 
-2. Sub Tugas = Form Pizza dan Hasil Pizza
+1. Sub Tugas = Form Pizza dan Hasil Pizza
  
-3. Sub Tugas = Form Input Pengguna dan Hasil Input Pengguna
+2. Sub Tugas = Form Input Pengguna dan Hasil Input Pengguna
  
 
 <hr />
