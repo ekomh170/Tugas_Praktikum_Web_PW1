@@ -80,7 +80,7 @@ Sub Tugas :
       <img src="form/assets/readme/form.png" alt="Form">
 
     2. Hasil :
-      <img src="form/assets/readme/hasil.png" alt="Hasil"> 
+       <img src="form/assets/readme/hasil.png" alt="Hasil"> 
  
 
 <hr />
