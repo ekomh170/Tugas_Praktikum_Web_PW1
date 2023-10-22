@@ -12,13 +12,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pemesanan Barang/Produk - Eko Muchamad Haryono</title>
 
-     <!-- Favicon Lokal -->
-     <link rel="shortcut icon" href="assets/favicon/sttnf.ico">
-     <!-- Favicon Lokal -->
- 
+    <!-- Favicon Lokal -->
+    <link rel="shortcut icon" href="assets/favicon/sttnf.ico">
+    <!-- Favicon Lokal -->
+
 </head>
 
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <!-- Navbar -->
     <div style="background-color: #000080; overflow: hidden;">
         <a href="#"
             style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
@@ -33,20 +35,21 @@
         <a href="#"
             style="float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Logout</a>
 
-            <div style="float: right; margin: 10px 10px;">
-                <input type="text" placeholder="Cari barang..."
-                    style="padding: 3px; margin-right: 10px; border: none; border-radius: 5px;">
-                <button
-                    style="background-color: white; color: black; border: none; padding: 2px 10px; border-radius: 5px; cursor: pointer;"><img
-                        src="assets/img/picture_ico/search.png" alt="Cari" width="10px" height="10px"
-                        style="padding-top: 10px;"></button>
-
-            </div>
-            
+        <div style="float: right; margin: 10px 10px;">
+            <input type="text" placeholder="Cari barang..."
+                style="padding: 3px; margin-right: 10px; border: none; border-radius: 5px;">
+            <button
+                style="background-color: white; color: black; border: none; padding: 2px 10px; border-radius: 5px; cursor: pointer;"><img
+                    src="assets/img/picture_ico/search.png" alt="Cari" width="10px" height="10px"
+                    style="padding-top: 10px;"></button>
+        </div>
     </div>
+    <!-- Navbar -->
 
     <div style="padding: 20px;">
         <div style="display: flex; align-items: center;">
+
+            <!-- Foto Form -->
             <div style="flex: 1;">
                 <img src="assets/img/form/ico_tambah_foto.png" alt="Gambar" style="width: 70%; height: auto;">
                 <div>
@@ -56,27 +59,30 @@
                     <input type="file" name="foto" id="foto" style="display: none;">
                 </div>
             </div>
+            <!-- Foto Form Barang/Produk -->
 
+            <!-- Form Barang/Produk -->
             <div style="flex: 1; padding: 20px;">
                 <h2>Form Pemesanan Produk/Barang - Eko Muchamad Haryono</h2>
                 <form action="hasil-produk.html">
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="nama" style="flex: 1;">Title Here :</label>
-                        <input type="text" id="nama" name="nama" style="flex: 2; padding: 8px;" placeholder="Nama Produk/Barang">
+                        <input type="text" id="nama" name="nama" style="flex: 2; padding: 8px;"
+                            placeholder="Nama Produk/Barang">
                     </div>
-                    
+
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="description" style="flex: 1;">Description :</label>
                         <textarea type="text" id="description" maxlength="400" style="flex: 2; padding: 8px;"
                             placeholder="Deskripsi Produk/Barang"></textarea>
                     </div>
-                    
+
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="account_number" style="flex: 1;">Account Number :</label>
                         <input type="number" id="account_number" name="account_number" style="flex: 2; padding: 8px;"
                             placeholder="Account Nomer">
                     </div>
-                    
+
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="bank" style="flex: 1;">Bank :</label>
                         <select style="flex: 2; padding: 8px;">
@@ -86,33 +92,33 @@
                             <option value="BNI">BNI</option>
                         </select>
                     </div>
-                    
+
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="transaction" style="flex: 1;">Transaction :</label>
                         <input type="number" id="transaction" name="transaction" style="width: 35px; padding: 8px;"
                             placeholder="Jml">
                     </div>
-                    
+
                     <div style="margin: 20px 20px 3px 0;">
                         <input type="checkbox" id="send_to_mobile_phone">
-                        <label for="send_to_mobile_phone" style="color: green;">Send To Mobile Phone</label>    
+                        <label for="send_to_mobile_phone" style="color: green;">Send To Mobile Phone</label>
                     </div>
                     <div style="margin: 2px 5px 20px 0;">
                         <input type="checkbox" id="send_to_email">
-                        <label for="send_to_email" style="color: green;">Send To Email</label>    
+                        <label for="send_to_email" style="color: green;">Send To Email</label>
                     </div>
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="send_to_mobile_phone" style="flex: 1;">Send To Mobile Phone :</label>
-                        <input type="number" id="send_to_mobile_phone" name="send_to_mobile_phone" style="flex: 2; padding: 8px;"
-                            placeholder="Account Nomer">
+                        <input type="number" id="send_to_mobile_phone" name="send_to_mobile_phone"
+                            style="flex: 2; padding: 8px;" placeholder="Account Nomer">
                     </div>
-                    
+
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="send_to_email" style="flex: 1;">Send To Email :</label>
                         <input type="number" id="send_to_email" name="send_to_email" style="flex: 2; padding: 8px;"
                             placeholder="Account Nomer">
                     </div>
-                    
+
                     <div style="margin-top: 50px;">
                         <button type="submit"
                             style="background-color: #4caf50; color: white; border: none; padding: 10px 20px; cursor: pointer;">Generate
@@ -121,15 +127,16 @@
                 </form>
 
             </div>
-        </div>
+            <!-- Form Barang/Produk -->
 
+        </div>
     </div>
 
-        <!-- Footer Keranjangan  -->
-        <div style="background-color: #000080; color: #fff; text-align: center; padding: 20px; bottom: 0; width: 100%;">
-            <p>Hak Cipta © 2023 - Eko Muchamad Haryono</p>
-        </div>
-        <!-- Footer Keranjangan  -->
+    <!-- Footer Keranjangan  -->
+    <div style="background-color: #000080; color: #fff; text-align: center; padding: 20px; bottom: 0; width: 100%;">
+        <p>Hak Cipta © 2023 - Eko Muchamad Haryono</p>
+    </div>
+    <!-- Footer Keranjangan  -->
 </body>
 
 </html>
