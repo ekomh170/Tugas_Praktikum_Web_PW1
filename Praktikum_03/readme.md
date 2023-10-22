@@ -44,11 +44,11 @@
    
       2. Hasil : <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/blob/ry_dev/Praktikum_03/form_pizza/hasil-pizza.html">Praktikum_03/form_pizza/hasil-pizza.html</a>
 
-   2. Sub Tugas = Form Input Pengguna dan Hasil Input Pengguna </b> = Directory Repo : <b>
+   2. Sub Tugas = Form Input Pengguna dan Hasil Input Pengguna = Directory Repo : 
    
-      1. Form :
+      1. Form : <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/blob/ry_dev/Praktikum_03/form/form.html">Praktikum_03/form/form.html</a>
    
-      2. Hasil :
+      2. Hasil : <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/blob/ry_dev/Praktikum_03/form/hasil.html">Praktikum_03/form/hasil.html</a>
 
 <hr />
 
