@@ -26,7 +26,7 @@ Lokasi Praktikum 02 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 <b>2. Nama Folder : Praktikum_03</b>
 
 Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03">Praktikum_03/</a>
-   - Form Pemesanan Barang dan Hasil Pemesanan Barang/Produk (Tugas Utama) = Proses =  Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form_produk">Praktikum_03/form_produk/</a>
+   - Form Pemesanan Barang dan Hasil Pemesanan Barang/Produk (Tugas Utama) =  Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form_produk">Praktikum_03/form_produk/</a>
       
       1. Form : 
       <img src="Praktikum_03/form_produk/assets/readme/form_produk.png" alt="Form Produk"> 
@@ -34,7 +34,7 @@ Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
       2. Hasil : 
       <img src="Praktikum_03/form_produk/assets/readme/hasil_produk.png" alt="Hasil Produk"> 
 
-   - Form Pizza (Sub Tugas) = Proses = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form_pizza">Praktikum_03/form_pizza/</a>
+   - Form Pizza (Sub Tugas) = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form_pizza">Praktikum_03/form_pizza/</a>
    
       1. Form :
       <img src="Praktikum_03/form_pizza/assets/readme/form_pizza.png" alt="Form Pizza">
@@ -43,7 +43,7 @@ Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
       <img src="Praktikum_03/form_pizza/assets/readme/hasil_pizza.png" alt="Hasil Pizza">
       
 
-   - Form (Sub Tugas/Latihan) = Proses = Lokasi = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form">Praktikum_03/form/</a>
+   - Form (Sub Tugas/Latihan) = Lokasi = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_03/form">Praktikum_03/form/</a>
 
       1. Form :
       <img src="Praktikum_03/form/assets/readme/form.png" alt="Form">
@@ -54,6 +54,15 @@ Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 
 <hr />
 
-<b>4. Nama Folder : Praktikum_04 - (Masih Dalam Proses Pengerjaan)</b>
+<b>4. Nama Folder : Praktikum_04</b>
+
+Lokasi Praktikum 04 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_04">Praktikum_04/</a>
+
+- Praktikum 4 - Membuat Halaman Web Profile = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_04/profile_tugas_utama">Praktikum_04/profile_tugas_utama/</a>
+
+1. Hasil Output Tugas : 
+      <img src="Praktikum_04/profile_tugas_utama/assets/readme/Tugas_Praktikum_4_PW_1_1.png" alt="Form Produk"> 
+
+      <img src="Praktikum_04/profile_tugas_utama/assets/readme/Tugas_Praktikum_4_PW_1_2.png" alt="Form Produk"> 
 
 
