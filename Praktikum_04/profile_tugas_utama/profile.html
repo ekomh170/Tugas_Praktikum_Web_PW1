@@ -37,9 +37,9 @@
         .profile-picture img {
             width: 100%;
             /* Gambar akan mengisi seluruh lebar dari container .profile-picture */
-            height: 400px;
+            height: 360px;
             border-radius: 10%;
-            border: 5px solid black;
+            border: 1px solid black;
         }
 
         /* CSS Gambar */
@@ -57,8 +57,9 @@
         }
 
         .profile-deskripsi-1 p {
-            font-size: 16px;
+            font-size: 20px;
         }
+
         /* Deskripsi 1 - Profile */
 
 
@@ -69,7 +70,7 @@
 
         .profile-right,
         .profile-left {
-            margin: 5px 0px;
+            margin: 13px 0px;
         }
 
         .profile-right {
@@ -78,7 +79,9 @@
 
         .profile-left {
             float: right;
+            
         }
+
         /* Tata Letak Detail Deskripsi Profile 1 */
 
 
@@ -97,11 +100,22 @@
         }
 
         .gambar-container img {
+            width: 40%;
+            height: 200px;
+            /* Atur lebar gambar sesuai keinginan Anda */
+            border-radius: 10%;
+            /* Untuk memberikan sudut melengkung pada gambar */
+            border: 1px solid black;
+            /* Untuk memberikan border hitam pada gambar */
+
+        }
+
+        .gambar-container video {
             width: 30%;
             /* Atur lebar gambar sesuai keinginan Anda */
             border-radius: 10%;
             /* Untuk memberikan sudut melengkung pada gambar */
-            border: 5px solid black;
+            border: 1px solid black;
             /* Untuk memberikan border hitam pada gambar */
         }
 
@@ -110,9 +124,34 @@
             /* Atur lebar gambar sesuai keinginan Anda */
             border-radius: 10%;
             /* Untuk memberikan sudut melengkung pada gambar */
-            border: 5px solid black;
+            border: 1px solid black;
             /* Untuk memberikan border hitam pada gambar */
         }
+
+        .gambar-container fieldset {
+            width: 30%;
+            /* Atur lebar gambar sesuai keinginan Anda */
+            /* border-radius: 10%; */
+            /* Untuk memberikan sudut melengkung pada gambar */
+            border: 1px solid black;
+            /* Untuk memberikan border hitam pada gambar */
+        }
+
+        .attachment-item {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .attachment-item a {
+            color: #000080;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .attachment-item b {
+            font-weight: bold;
+        }
+
 
         .footer {
             background-color: #000080;
@@ -140,30 +179,32 @@
                     <p class="profile-right" style="font-size: 30px; font-weight: bold;">Eko Muchamad Haryono</p>
                     <p class="profile-left" style="font-size: 18px; font-weight: bold;"><u>Categories</u></p>
                 </div>
-                
+
                 <!-- Alamat Dll -->
                 <div class="data-profile">
                     <p class="profile-right">Jln. Puspanegara</p>
-                    <p class="profile-left">Github : @ekomh170</p>
+                    <p class="profile-left"><b>Github : </b> @ekomh170</p>
                 </div>
                 <div class="data-profile">
                     <p class="profile-right">Ds. Puspanegara, Kec. Citeureup</p>
-                    <p class="profile-left">Peminatan : Software Engineer</p>
+                    <p class="profile-left"><b>Peminatan : </b>Software Engineer</p>
                 </div>
                 <div class="data-profile">
                     <p class="profile-right">Kab. Bogor, Prov. Jawa Barat</p>
-                    <p class="profile-left">Web Profile 2020 - 2022 : ekomh170.github.io</p>
+                    <p class="profile-left"><b>Web Profile 2020 - 2022 :</b> <a
+                            href="https://ekomh170.github.io/">ekomh170.github.io</a></p>
                 </div>
                 <!-- Alamat Dll -->
 
                 <!-- Email dan Telephone -->
                 <div class="data-profile">
                     <p class="profile-right">Email : </p>
-                    <p class="profile-left" style="margin: 0 68% 0 0;"><a href="mailto:ekomh13@gmail.com">ekomh13@gmail.com</a></p>
+                    <p class="profile-left" style="margin: 0 60% 0 0;"><a
+                            href="mailto:ekomh13@gmail.com">ekomh13@gmail.com</a></p>
                 </div>
                 <div class="data-profile">
                     <p class="profile-right">Telephone : </p>
-                    <p class="profile-left" style="margin: 0 68% 0 0;">082246105463</p>
+                    <p class="profile-left" style="margin: 0 60% 0 0;">082246105463</p>
                 </div>
                 <!-- Email dan Telephone -->
             </div>
@@ -182,12 +223,31 @@
         </div>
 
         <div class="profile-deskripsi-2">
-            <p>Saya Memiliki Pengalaman Bekerja Selama 1.9 Tahun di RS Juliana Bogor, Pada Saat Itu Saya Berkerja
-                Sebagai Staff IT - RS Juliana Dibawah Naungan Dari Manager Keuangan dan Direksi RS Juliana. Saat Ini
-                Saya Berkuliah di Sekolah Tinggi Teknologi Terpadu Nurul Fikri dan Mengambil Prodi Teknik Informatika,
-                dan Berencana Mengambil Peminatan Software Engginer. Target Saya Saat Ini Adalah Mendapatkan Nilai
-                Terbaik Saat Kuliah Dan Dapat Lulus Tepat Waktu.</p>
+            <p>Sebelumnya, Saya Memiliki Pengalaman Kerja :
+                <ol>
+                    <li><b>Bekerja :</b> Selama 1,9 Tahun di <b>RS Juliana Bogor</b>, Saya Mulai Berkerja Pada Bulan
+                        Desember 2021 Hingga Terakhir Berkerja Saya Bulan Agustus 2023.</li>
+                    <li><b>Magang :</b> Selama 5 Bulan di <b>Institut Agama Islam Tazkia</b>, Saya Mulai Berkerja Pada
+                        Bulan September 2019 Hingga Terakhir Berkerja Saya Bulan Januari 2020.</li>
+                </ol>
+            </p>
         </div>
+
+        <div class="profile-deskripsi-2">
+            <p> Saat Ini Saya Berkuliah di Sekolah Tinggi Teknologi Terpadu Nurul Fikri dan Mengambil Prodi Teknik
+                Informatika, dan Berencana Mengambil Peminatan Software Engginer. Target Saya Saat Ini Adalah
+                Mendapatkan Nilai
+                Terbaik Saat Kuliah Dan Dapat Lulus Tepat Waktu.
+            </p>
+        </div>
+
+        <div class="profile-deskripsi-2">
+            <p> Menyelesaikan Studi di Sekolah Tinggi Teknologi Terpadu Nurul Fikri Dengan Nilai Yang Memuaskan dan
+                Hardskill Yang Memumpuni Dan Ketika Lulus Langsung Mendapatkan Perkerjaan di Bidang Tech Developer dan
+                Berkerja Selama 1 Tahun, Lalu Memiliki Banyak Relasi Dari Kampus Maupun Dari Tempat Kerja.
+            </p>
+        </div>
+
 
         <div class="profile-deskripsi-2" style="margin-top: 50px;">
             <h3 style="text-align: center;">“Life Grand Map” Caption "Terus Maju dan Terus Berkembang, Karena peluang
@@ -195,45 +255,83 @@
                 kamulah yang perlu membuat peluang tersebut menjadi nyata."</h3>
         </div>
 
-        <!-- Container untuk gambar-gambar -->
+        <!-- List Profile -->
         <fieldset>
             <legend><b>Kenangan Profile - 2021 & 2022 </b></legend>
             <div class="gambar-container">
 
+                <!-- Video -->
                 <video width="400" controls>
                     <source src="assets/video/video_eko.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
+                    <source src="assets/video/video_eko.mp4" type="video/ogg">
+                    Eko Muchamad Haryono video
                 </video>
+                <!-- Video -->
 
-                <span>
-                    <div style="margin: 30px;">
-                        <img src="assets/img/foto_2022.jpg" alt="Gambar_2022_Last_Work">
+
+                <!-- Gambar -->
+                <fieldset>
+                    <legend><b>Foto Saya :</b></legend>
+                    <div style="margin: 0 0 0 80px;">
+                        <img src="assets/img/pertemuan.jpg" alt="Gambar_2022_Last_Work">
+                        <img src="assets/img/jcc_foto.jpg" alt="Gambar_2022_Last_Work">
+                    </div>
+                    <div style="margin: 0 0 0 80px;">
+                        <img src="assets/img/wawancara_akre.jpg" alt="Gambar_2022_Last_Work">
                         <img src="assets/img/foto_2022.jpg" alt="Gambar_2022_Last_Work">
                     </div>
-                    <div style="margin: 30px;">
-                        <img src="assets/img/foto_2022.jpg" alt="Gambar_2022_Last_Work">
-                        <img src="assets/img/foto_2022.jpg" alt="Gambar_2022_Last_Work">
-                    </div>
-                </span>
+                </fieldset>
+                <!-- Gambar -->
 
-                <span>
+
+
+                <!-- Attachments  -->
+                <fieldset>
+                    <legend><b>Attachments</b></legend>
                     <div>
                         <h1 style="margin: 30px;">Attachments :</h1>
                     </div>
-
                     <div style="margin: 30px;">
-                        <div>
-                            <a href="http://">Instagram : </a>
+                        <div class="attachment-item">
+                            <b>Instagram :</b> <a href="https://www.instagram.com/ekomh_29/"
+                                target="_blank">@ekomh29</a>
                         </div>
-                        <div>
-                            <a href="http://">Facebook : </a>
+                        <div class="attachment-item">
+                            <b>Facebook : </b><a href="https://www.facebook.com/eko.m.haryono/"
+                                target="_blank">@ekoharyono</a>
                         </div>
-                        <div>
-                            <a href="http://">CV :</a>
+                        <div class="attachment-item">
+                            <b>Linkedin : </b><a href="https://www.linkedin.com/in/eko-haryono-290/"
+                                target="_blank">@eko-haryono-290</a>
+                        </div>
+                        <div class="attachment-item">
+                            <b>Curriculum Vitae : </b><a
+                                href="https://drive.google.com/file/d/1IbV7WzBnfbRjV1-Jl_o757LZwTWaM3fI/view?usp=sharing"
+                                target="_blank">File CV - Eko</a>
+                        </div>
+                        <div class="attachment-item">
+                            <b>Portofolio : </b><a
+                                href="https://drive.google.com/file/d/19WJVui1_it8fd5J-Fd12G6lcUdxga-is/view?usp=sharing"
+                                target="_blank">File Portofolio - Eko</a>
+                        </div>
+                        <hr>
+                        <div class="attachment-item">
+                            <b>Tugas Praktikum 1 : </b><a href="http://" target="_blank"></a>
+                        </div>
+                        <div class="attachment-item">
+                            <b>Tugas Praktikum 2 : </b><a href="http://" target="_blank"></a>
+                        </div>
+                        <div class="attachment-item">
+                            <b>Tugas Praktikum 3 : </b><a href="http://" target="_blank"></a>
+                        </div>
+                        <div class="attachment-item">
+                            <b>Tugas Praktikum 4 : </b><a href="http://" target="_blank"></a>
                         </div>
                     </div>
-                </span>
+                </fieldset>
+                <!-- Attachments  -->
+
+
             </div>
         </fieldset>
     </fieldset>
