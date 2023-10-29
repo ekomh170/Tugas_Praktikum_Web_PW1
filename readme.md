@@ -70,7 +70,7 @@ Lokasi Praktikum 04 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 
 <h3>Sub Utama Praktikum 4 : </h3>
 
-Melampirkan Lokasi Tugas :
+Sub Tugas Hanya - Melampirkan Lokasi Tugas :
 
 - Praktikum 4 | Sub Tugas - Layout Halaman Web dengan IFRAME |  Gambar 4.1 = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_04/web_layout_iframe">Praktikum_04/web_layout_iframe/</a>
 
