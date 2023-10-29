@@ -54,15 +54,27 @@ Lokasi Praktikum 03 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 
 <hr />
 
-<b>4. Nama Folder : Praktikum_04</b>
+<b>4. Nama Folder : Praktikum_04 :</b>
+
+<h3>Tugas Utama Praktikum 4 : </h3>
 
 Lokasi Praktikum 04 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_04">Praktikum_04/</a>
 
-- Praktikum 4 - Membuat Halaman Web Profile = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_04/profile_tugas_utama">Praktikum_04/profile_tugas_utama/</a>
+- Praktikum 4 | Membuat Halaman Web Profile | Gambar 4.3 = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_04/profile_tugas_utama">Praktikum_04/profile_tugas_utama/</a>
 
 1. Hasil Output Tugas : 
+ 
       <img src="Praktikum_04/profile_tugas_utama/assets/readme/Tugas_Praktikum_4_PW_1_1.png" alt="Form Produk"> 
 
       <img src="Praktikum_04/profile_tugas_utama/assets/readme/Tugas_Praktikum_4_PW_1_2.png" alt="Form Produk"> 
+
+<h3>Sub Utama Praktikum 4 : </h3>
+
+Melampirkan Lokasi Tugas :
+
+- Praktikum 4 | Sub Tugas - Layout Halaman Web dengan IFRAME |  Gambar 4.1 = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_04/web_layout_iframe">Praktikum_04/web_layout_iframe/</a>
+
+- Praktikum 4 | Sub Tugas - HTML5 Layout |  Gambar 4.2 = Lokasi = <a href="">Praktikum_04/web_layout_html5/</a>
+
 
 
