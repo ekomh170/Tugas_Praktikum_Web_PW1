@@ -1,0 +1,158 @@
+<!-- Tugas Punya : Eko Muchamad Haryono -->
+<!-- TI - 02 -->
+<!-- Teknik Informatika -->
+<!-- Pemograman Web 1 (PW1) -->
+<!-- Tema : Membuat Hasil Form Pemesanan Barang/Produk  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Pemesanan Barang - Eko Muchamad Haryono</title>
+</head>
+
+ <!-- Favicon Lokal -->
+ <link rel="shortcut icon" href="assets/favicon/sttnf.ico">
+ <!-- Favicon Lokal -->
+
+
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <!-- Navbar -->
+    <center>
+        <div style="background-color: #000080; overflow: hidden; width: 95%;">
+            <a href="#"
+                style="float: left; display: block; color: white; text-align: center; padding: 18px 16px; text-decoration: none;">Home</a>
+            <a href="#"
+                style="float: left; display: block; color: white; text-align: center; padding: 18px 16px; text-decoration: none;">Generate
+                Link</a>
+            <a href="#"
+                style="float: left; display: block; color: white; text-align: center; padding: 18px 16px; text-decoration: none;">Transaction
+                History</a>
+            <a href="#"
+                style="float: left; display: block; color: white; text-align: center; padding: 18px 16px; text-decoration: none;">Policy</a>
+            <a href="#"
+                style="float: left; display: block; color: white; text-align: center; padding: 18px 16px; text-decoration: none;">Logout</a>
+
+            <div style="float: right; margin: 10px 10px;">
+                <input type="text" placeholder="Cari barang..."
+                    style="padding: 3px; margin-right: 10px; border: none; border-radius: 5px;">
+                <button
+                    style="background-color: white; color: black; border: none; padding: 2px 10px; border-radius: 5px; cursor: pointer;"><img
+                        src="assets/img/picture_ico/search.png" alt="Cari" width="10px" height="10px"
+                        style="padding-top: 10px;"></button>
+
+            </div>
+        </div>
+    </center>
+    <!-- Navbar -->
+
+    <div style="padding: 20px; margin-top: 15px;">
+        <div style="display: flex; align-items: right;">
+            
+            <!-- Foto Barang/Produk -->
+            <div style="flex: 1;">
+                <img src="assets/img/form/macbook.jpg" alt="Gambar"
+                    style="margin-left: 20px;  border-radius: 5%; width: 80%; height: 70%;">
+            </div>
+            <!-- Foto Barang/Produk -->
+
+            <!-- Form Barang/Produk -->
+            <div style="flex: 1; padding: 20px; margin-top: 15px;">
+                <h2>Hasil Pemesanan Produk/Barang - Eko Muchamad Haryono</h2>
+                <form action="#">
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="nama" style="flex: 1;">Title Here :</label>
+                        <span>MacBook Air E800</span>
+                    </div>
+
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="description" style="flex: 1;">Description :</label>
+                        <span>
+                            Year : 2009
+                            Model :
+                            Condition : Mint
+                        </span>
+                    </div>
+
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="account_number" style="flex: 1;">Total Amount :</label>
+                        <span>800</span>
+                    </div>
+
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="account_number" style="flex: 1;">Pay To :</label>
+                        <span>123-456-789-0</span>
+                    </div>
+
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="bank" style="flex: 1;">Payment Type :</label>
+                        <select style="flex: 2; padding: 8px;">
+                            <option value="HSBC">Visa Debit</option>
+                            <option value="HSBC">HSBC</option>
+                            <option value="BSI">BSI</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BNI">BNI</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="nama" style="flex: 1;">Account Holder :</label>
+                        <span>Eko Muchamad Haryono</span>
+                    </div>
+
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="nama" style="flex: 1;">Account No :</label>
+                        <span>123-456-789-0</span>
+                    </div>
+
+                    <div style="margin: 20px 20px 3px 0;">
+                        <input type="checkbox" id="send_to_mobile_phone" checked>
+                        <label for="send_to_mobile_phone" style="color: green;">Send To Mobile Phone</label>
+                    </div>
+                    <div style="margin: 2px 5px 20px 0;">
+                        <input type="checkbox" id="send_to_email" checked>
+                        <label for="send_to_email" style="color: green;">Send To Email</label>
+                    </div>
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="send_to_mobile_phone" style="flex: 1;">Send To Mobile Phone :</label>
+                        <input type="text" id="send_to_mobile_phone" name="send_to_mobile_phone"
+                            style="flex: 2; padding: 8px;" placeholder="Send To Mobile Phone"
+                            value="1234567890, 1234567891">
+                    </div>
+
+                    <div style="margin-bottom: 10px; display: flex; align-items: center;">
+                        <label for="send_to_email" style="flex: 1;">Send To Email :</label>
+                        <input type="text" id="send_to_email" name="send_to_email" style="flex: 2; padding: 8px;"
+                            placeholder="Send To Email" value="mfmm2.g13@sotonacuk, fys_06@yahoo.com">
+                    </div>
+
+                    <div style="margin-top: 50px;">
+                        <button type="submit"
+                            style="background-color: #4caf50; color: white; border: none; padding: 10px 20px; cursor: pointer;">Pay
+                            Using QuidLink</button>
+                    </div>
+                </form>
+
+            </div>
+            <!-- Form Barang/Produk -->
+
+        </div>
+                    
+    </div>
+    <!-- Footer Keranjangan  -->
+    <div style="background-color: #000080; color: #fff; text-align: center; padding: 20px; bottom: 0; width: 100%;">
+        <p>Hak Cipta © 2023 - Eko Muchamad Haryono</p>
+    </div>
+    <!-- Footer Keranjangan  -->
+</body>
+
+</html>
+
+<!-- Tugas Punya : Eko Muchamad Haryono -->
+<!-- TI - 02 -->
+<!-- Teknik Informatika -->
+<!-- Pemograman Web 1 (PW1) -->
+<!-- Tema : Membuat Hasil Pemesanan Barang/Produk  -->
