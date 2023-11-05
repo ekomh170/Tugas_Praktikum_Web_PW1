@@ -1,0 +1,48 @@
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#header blockquote {
+    background-color: yellow;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.gambar img {
+    width: 200px;
+
+}
+
+.isi::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+
+.koleksi{
+    text-align: center;
+}
+
+.koleksi img{
+    width: 200px;
+}
