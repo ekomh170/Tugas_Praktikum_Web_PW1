@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Pegawai - Eko Muchamad Haryono</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+</style>
+
+<body>
+    <h2>FORM ENTRY DATA PEGAWAI</h2>
+    <form action="uts.html">
+        <table>
+            <!-- Baris 1 -->
+            <tr>
+                <td><label for="nik">NIK :</label></td>
+                <td><input type="text" name="text
+                    " id="nik" placeholder="Masukan Nomor Induk Kewarganegaraan">
+                </td>
+            </tr>
+
+            <!-- Baris 2 -->
+            <tr>
+                <td><label for="tanggal_lahir">TTL :</label></td>
+                <td><input type="date" name="tanggal_lahir
+                    " id="tanggal_lahir">
+                </td>
+            </tr>
+
+            <!-- Baris 3 -->
+            <tr>
+                <td><label for="alamat">Alamat :</label></td>
+                <td><textarea name="alamat" id="" cols="30" rows="5" placeholder="Masukan Alamat Lengkap"></textarea>
+                </td>
+            </tr>
+
+            <!-- Baris 4 -->
+            <tr>
+                <td><label for="telepon">No Telepon :</label></td>
+                <td><input type="number" name="telepon" id="telepon" placeholder="Masukan Nomer Telepon">
+                </td>
+            </tr>
+
+            <!-- Baris 5 -->
+            <tr>
+                <td><label for="jabatan">Jabatan :</label></td>
+                <td>
+                    <select name="jabatan" id="jabatan">
+                        <option selected="true" disabled>-- Jabatan Terbaru --</option>
+                        <option value="Staff IT">Staff IT</option>
+                        <option value="Bos">Bos</option>
+                        <option value="HRD">HRD</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Baris 6 -->
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Simpan" style="background-color: red;"> <input type="reset" value="Batal"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

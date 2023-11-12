@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box 2 - Eko Muchamad Haryono</title>
+</head>
+
+<style>
+
+    /* Utama */
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Baris 1 */
+    .row1 {
+        background-color: green;
+        height: 100px;
+        border: 2px solid black;
+    }
+
+/* 2 Class CSS  */
+    /* Baris 2 dan Baris 3 */
+    .row2, 
+    .row3 {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* Baris 2 dan Baris 3 */
+    .row2-yellow, 
+    .row3-yellow {
+        background-color: yellow;
+        height: 100px;
+        flex-grow: 1;
+        border: 2px solid black;
+    }
+/* 2 Class CSS  */
+
+    /* Baris 2 */
+    .row2-orange {
+        background-color: orange;
+        height: 100px;
+        flex-grow: 3;
+        border: 2px solid black;
+    }
+
+    /* Baris 3 */
+    .row3-biru {
+        background-color: aqua;
+        height: 100px;
+        flex-grow: 3;
+        border: 2px solid black;
+    }
+</style>
+
+<body>
+    <!-- Class Container -->
+    <div class="container">
+
+        <!-- Baris 1 -->
+        <div class="row1">
+        </div>
+
+        <!-- Baris 2 -->
+        <div class="row2">
+            <div class="row2-yellow"></div>
+            <div class="row2-orange"></div>
+        </div>
+
+        <!-- Baris 3 -->
+        <div class="row3">
+            <div class="row3-yellow"></div>
+            <div class="row3-biru"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>

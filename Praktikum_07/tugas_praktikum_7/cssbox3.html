@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box 3 - Eko Muchamad Haryono</title>
+</head>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    
+    /* Baris Pertama */
+    .row1 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .row1-orange,
+    .row1-yellow {
+        border: 2px solid black;
+    }
+
+    /* Kuning */
+    .row1-yellow {
+        background-color: yellow;
+        height: 100px;
+        flex-grow: 1;
+    }
+    /* Kuning */
+
+    /* Oren */
+    .row1-orange {
+        background-color: orange;
+        height: 100px;
+        flex-grow: 5;
+    }
+    /* Oren */
+
+    /* Baris Pertama */
+
+
+    /* Baris Kedua */
+
+    .row2 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .row2-green,
+    .row2-grey,
+    .row2-aqua {
+        border: 2px solid black;
+    }
+
+    /* Kuning */
+    .row2-green {
+        background-color: greenyellow;
+        height: 500px;
+        flex-grow: 1;
+    }
+    /* Kuning */
+
+    /* Oren */
+    .row2-grey {
+        background-color: grey;
+        height: 500px;
+        flex-grow: 4;
+    }
+
+    .row2-aqua {
+        background-color: aqua;
+        height: 500px;
+        flex-grow: 1;
+    }
+
+    /* Baris Kedua */
+
+
+    /* Baris Ketiga */
+    .row3-darkblue {
+        background-color: blue;
+        height: 100px;
+        border: 2px solid black;
+    }
+      /* Baris Ketiga */
+
+</style>
+
+<body>
+    <!-- Class Container -->
+    <div class="container">
+
+        <!-- Baris 1 -->
+        <div class="row1">
+            <div class="row1-yellow"></div>
+            <div class="row1-orange"></div>
+        </div>
+
+        <div class="row2">
+            <div class="row2-green"></div>
+            <div class="row2-grey"></div>
+            <div class="row2-aqua"></div>
+        </div>
+
+        <div class="row3-darkblue"></div>
+        
+    </div>
+</body>
+
+</html>
