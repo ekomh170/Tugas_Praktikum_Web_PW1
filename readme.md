@@ -78,3 +78,15 @@ Sub Tugas Hanya - Melampirkan Lokasi Tugas :
 
 
 
+<hr />
+
+<b>4. Nama Folder : Praktikum_07 :</b>
+
+<h3>Tugas Utama Praktikum 7 : </h3>
+
+Lokasi Praktikum 07 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_07/tugas_praktikum_7">Praktikum_07/tugas_praktikum_7</a>
+
+- Praktikum 7 | Buat HTML dan Terapkan CSS box dan Positioning Untuk Membuat Halaman Web  | Gambar 7.3 = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_07/tugas_praktikum_7">Praktikum_07/tugas_praktikum_7/
+1. Hasil Output Tugas : 
+ 
+      <img src="Praktikum_07/tugas_praktikum_7/assets/readme/CSS_BOX_3_Praktikum_7.png"> 
