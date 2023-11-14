@@ -1,0 +1,229 @@
+<!-- Tugas Punya : Eko Muchamad Haryono -->
+<!-- 0110223079 -->
+<!-- TI - 02 -->
+<!-- Teknik Informatika -->
+<!-- Pemograman Web 1 (PW1) -->
+<!-- Tema : UTS - Pertemuan 8  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eko Muchamad Haryono - 0110223079 - UTSFORM11</title>
+    </head>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            margin: 20px 10%;
+        }
+
+        fieldset {
+            padding: 10px 50px;
+            border: 2px solid black;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: medium;
+            
+        }
+     
+        td,
+        th {
+            padding: 7px;
+        }
+
+
+        label {
+            font-weight: bold;
+        }
+
+
+        input {
+            border: 2px solid black;
+            padding: 12px 20px;
+        }
+
+        select {
+            border: 2px solid black;
+            padding: 12px 20px;
+        }
+
+        textarea {
+            border: 2px solid black;
+            padding: 12px 20px;
+        }
+
+        .tombol {
+            background-color: #ffffff;
+            border: 1;
+            color: rgb(0, 0, 0);
+            padding: 7px 7px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            box-shadow: 5px 10px;
+
+        }
+
+        
+    </style>
+
+    <body>
+        <div class="container">
+            <fieldset>
+                <legend>Booking Periksa Kesehatan Gigi</legend>
+                <form action="#">
+                    <table>
+
+                        <!--   Nama Pasien -->
+                        <tr>
+                            <td>
+                                <label for="nama_pasien">Nama Pasien</label>
+                            </td>
+                            <td>
+                                : <input type="text" name="nama_pasien" id="nama_pasien"
+                                    placeholder="Masukan Nama Pasien">
+                            </td>
+                        </tr>
+                        <!--   Nama Pasien -->
+
+
+                        <!-- Pilih Dokter -->
+                        <tr>
+                            <td>
+                                <label for="dokter">Pilih Dokter </label>
+                            </td>
+                            <td>:
+                                <select name="dokter" id="dokter">
+                                    <option value="Drg. Amelia">Drg. Amelia</option>
+                                    <option value="Dr. Eko Laksono">Dr. Eko Laksono</option>
+                                    <option value="Dr Ryan">Dr Ryan</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <!-- Pilih Dokter -->
+
+                        <!-- Pilih  Layanan -->
+                        <tr>
+                            <td>
+                                <label for="poli">Pilih Layanan</label>
+                            </td>
+                            <td>:
+                                <select name="poli" id="poli">
+                                    <option value="Perawatan Gigi Anak">Perawatan Gigi Anak</option>
+                                    <option value="Perawatan Bedah Kulit">Perawatan Bedah Kulit</option>
+                                    <option value="Perawatan Saraf">Perawatan Saraf</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <!-- Pilih Layanan -->
+
+                        <!-- Keluhan -->
+                        <tr>
+                            <td>
+                                <label for="keluhan">Keluhan :</label>
+                            </td>
+                            <td>
+                                <textarea name="keluhan" id="" cols="35" rows="3" placeholder="Masukan Keluhan Pasien"
+                                    style="margin-left: 8px;"></textarea>
+                            </td>
+                        </tr>
+                        <!-- Keluhan -->
+
+                        <!-- Pembayaran -->
+                        <tr>
+                            <td>
+                                <label for="pembayaran">Pembayaran</label>
+                            </td>
+                            <td>:
+                                <span>
+                                    <input type="checkbox" id="cash" name="cash" value="cash">
+                                    <label for="cash"> Cash </label>
+                                    <input type="checkbox" id="transfer" name="transfer" value="transfer">
+                                    <label for="transfer"> Transfer</label>
+                                    <input type="checkbox" id="ewallet" name="ewallet" value="ewallet">
+                                    <label for="ewallet"> eWallet</label>
+                                </span>
+                            </td>
+                        </tr>
+                        <!-- Pembayaran -->
+
+                        <!-- Tanggal Periksa -->
+                        <tr>
+                            <td>
+                                <label for="tanggal_periksa">Tanggal Periksa</label>
+                            </td>
+                            <td>:
+                                <input type="date" id="tanggal_periksa" name="tanggal_periksa" value="" />
+                            </td>
+                        </tr>
+                        <!-- Tanggal Periksa -->
+
+                        <!-- Umur -->
+                        <tr>
+                            <td>
+                                <label for="umur">Umur</label>
+                            </td>
+                            <td>
+                                : <input type="number" name="umur" id="umur" style="width: 30px;">
+                            </td>
+                        </tr>
+                        <!-- Umur -->
+
+                        <!-- Telpon/HP -->
+                        <tr>
+                            <td>
+                                <label for="telp_hp">Telpon/HP</label>
+                            </td>
+                            <td>
+                                : <input type="text" name="telp_hp" id="telp_hp" placeholder="Masukan Nomer Telpon/HP" placeholder="Masukan No Telepon">
+                            </td>
+                        </tr>
+                        <!-- Telpon/HP -->
+
+                        <!-- Email -->
+                        <tr>
+                            <td>
+                                <label for="email"> Email</label>
+                            </td>
+                            <td>
+                                : <input type="email" name="email" id="email" placeholder="Masukan Email">
+                            </td>
+                        </tr>
+                        <!-- Email -->
+
+                        <!-- Email -->
+                        <tr>
+                            <td>
+                                <input type="button" value="Submit" class="tombol">
+                            </td>
+
+                            <td style="padding-left: 13px;">
+                                <input type="button" value="Reset" class="tombol">
+                            </td>
+                        </tr>
+                        <!-- Email -->
+
+                    </table>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+
+</html>
+
+<!-- Tugas Punya : Eko Muchamad Haryono -->
+<!-- 0110223079 -->
+<!-- TI - 02 -->
+<!-- Teknik Informatika -->
+<!-- Pemograman Web 1 (PW1) -->
+<!-- Tema : UTS - Pertemuan 8  -->
