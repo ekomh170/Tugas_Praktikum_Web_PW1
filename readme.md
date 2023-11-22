@@ -86,7 +86,26 @@ Sub Tugas Hanya - Melampirkan Lokasi Tugas :
 
 Lokasi Praktikum 07 = Directory Repo =<a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_07/tugas_praktikum_7">Praktikum_07/tugas_praktikum_7</a>
 
-- Praktikum 7 | Buat HTML dan Terapkan CSS box dan Positioning Untuk Membuat Halaman Web  | Gambar 7.3 = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_07/tugas_praktikum_7">Praktikum_07/tugas_praktikum_7/
+- Praktikum 7 | Tugas Buat HTML dan Terapkan CSS box dan Positioning Untuk Membuat Halaman Web  | Gambar 7.3 = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_07/tugas_praktikum_7">Praktikum_07/tugas_praktikum_7/</a>
+  
 1. Hasil Output Tugas : 
  
       <img src="Praktikum_07/tugas_praktikum_7/assets/readme/CSS_BOX_3_Praktikum_7.png"> 
+
+
+
+<hr />
+
+<b>4. Nama Folder : Praktikum_08 :</b>
+
+<h3>Tugas Utama Praktikum 8 : </h3>
+
+Lokasi Praktikum 08 = Directory Repo = <a href="">Praktikum_08/tugas_praktikum_8</a>
+
+- Praktikum 8 | <b>Tugas Membuat Website dengan Flexbox</b> = Lokasi = <a href="">Praktikum_08/tugas_praktikum_8/</a>
+  
+1. Hasil Output Tugas : 
+ 
+      <img src="Praktikum_08/tugas_praktikum_8/assets/img/readme/Foto_Tugas_1.png"> 
+
+      <img src="Praktikum_08/tugas_praktikum_8/assets/img/readme/Foto_Tugas_2.png"> 

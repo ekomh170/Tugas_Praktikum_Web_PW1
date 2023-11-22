@@ -1,0 +1,103 @@
+<!-- Tugas Punya : Eko Muchamad Haryono -->
+<!-- TI - 02 -->
+<!-- Teknik Informatika -->
+<!-- Pemograman Web 1 (PW1) -->
+<!-- Kalo Mau Pake Harus Izin Dulu Dan Tidak Boleh Plagiatrisme -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon Lokal -->
+        <link rel="shortcut icon" href="assets/img/favicon/sttnf.ico">
+        <!-- Favicon Lokal -->
+
+        <title>Flexbox 2 - Eko Muchamad Haryono | Tugas Kampus</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                font-size: large;
+                font-weight: bold;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                height: 100vh;
+            }
+
+            nav {
+                background-color: pink;
+                padding: 40px 20px;
+                flex: 2;
+            }
+
+            main {
+                flex: 10;
+                display: flex;
+                flex-direction: column;
+            }
+
+            header,
+            article,
+            footer {
+                width: 100%;
+            }
+
+            header {
+                background-color: yellow;
+                padding: 40px 50px;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+            }
+
+            article {
+                background-color: white;
+                padding: 40px 50px;
+                flex: 8.5;
+            }
+
+            aside {
+                background-color: aqua;
+                padding: 40px 50px;
+                flex: 1.5;
+            }
+
+            footer {
+                background-color: yellow;
+                padding: 40px 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                Nav
+            </nav>
+            <main>
+                <header>Header</header>
+                <div class="content">
+                    <article>Article</article>
+                    <aside>Aside</aside>
+                </div>
+                <footer>Footer</footer>
+            </main>
+        </div>
+    </body>
+
+</html>
+
+<!-- Tugas Punya : Eko Muchamad Haryono -->
+<!-- TI - 02 -->
+<!-- Teknik Informatika -->
+<!-- Pemograman Web 1 (PW1) -->
+<!-- Kalo Mau Pake Harus Izin Dulu Dan Tidak Boleh Plagiatrisme -->
