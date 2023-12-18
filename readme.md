@@ -80,7 +80,7 @@ Sub Tugas Hanya - Melampirkan Lokasi Tugas :
 
 <hr />
 
-<b>4. Nama Folder : Praktikum_07 :</b>
+<b>5. Nama Folder : Praktikum_07 :</b>
 
 <h3>Tugas Utama Praktikum 7 : </h3>
 
@@ -96,7 +96,7 @@ Lokasi Praktikum 07 = Directory Repo =<a href="https://github.com/ekomh170/Tugas
 
 <hr />
 
-<b>4. Nama Folder : Praktikum_08 :</b>
+<b>6. Nama Folder : Praktikum_08 :</b>
 
 <h3>Tugas Utama Praktikum 8 : </h3>
 
@@ -109,3 +109,23 @@ Lokasi Praktikum 08 = Directory Repo = <a href="https://github.com/ekomh170/Tuga
       <img src="Praktikum_08/tugas_praktikum_8/assets/img/readme/Foto_Tugas_1.png"> 
 
       <img src="Praktikum_08/tugas_praktikum_8/assets/img/readme/Foto_Tugas_2.png"> 
+
+
+<hr />
+
+<b>7. Nama Folder : Praktikum_11 :</b>
+
+<h3>Tugas Utama Praktikum 11 : </h3>
+
+Lokasi Praktikum 11 = Directory Repo = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_11">Praktikum_11/</a>
+
+- Praktikum 11 | <b>Menghitung Jumlah Dua Bilangan</b> = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/blob/ry_dev/Praktikum_11/tugas/menghitung_jumlah_dua_bilangan.html">Praktikum_11/tugas/menghitung_jumlah_dua_bilangan.html</a>
+  
+1. Hasil Output Tugas : 
+
+      <img src="Praktikum_11/tugas/assets/readme/menghitung_jumlah_2_bilangan.png"> 
+
+
+      
+
+      
