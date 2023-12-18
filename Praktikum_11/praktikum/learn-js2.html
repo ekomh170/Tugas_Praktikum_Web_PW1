@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hitung Kurs Rupiah</title>
+    </head>
+
+    <style>
+        .container {
+            margin: 30px;
+            padding: 20px;
+            border: 30px solid;
+        }
+
+        .judul {
+            text-align: center;
+        }
+
+        .content {
+            margin-left: 140px;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <h2 class="judul">Hitung Kurs Rupiah dari Dolar ke Rupiah</h2>
+            <div class="content">
+                <label for="dollar">Masukan Uang Dolar : <span></span></label>
+
+                <!-- OnChange Cara Get Fungsi Di JS -->
+                <input type="number" id="dollar" onChange="convert_rupiah()" />
+
+                <p>Nilai Dalam Rupiah : <span id="rupiah"></span></p>
+            </div>
+        </div>
+
+        <script>
+            function convert_rupiah(){
+
+                // Menampung Input-an Dollar
+                let jumlahdollar = document.getElementById("dollar").value;
+                
+                // Rumush 1 Dolar = 14650
+                let jumlah_rupiah = 14650 * jumlahdollar;
+
+                // Tampilakan Jumlah Rupiah Pada Tag Yang Menggunakan ID Rupiah
+               document.getElementById("rupiah").innerText = jumlah_rupiah;
+               
+
+            }
+
+        </script>
+    </body>
+
+</html>

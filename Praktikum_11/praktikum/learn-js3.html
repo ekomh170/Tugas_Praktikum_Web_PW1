@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Program Biaya Parkir</title>
+    </head>
+
+    <style>
+        .container {
+            margin: 30px;
+            padding: 20px;
+            border: 30px solid;
+        }
+
+        .judul {
+            text-align: center;
+        }
+
+        .content {
+            margin-left: 140px;
+        }
+    </style>
+
+    <body>
+        <!-- 2 Jam Petama : 3000 -->
+        <!-- 3 Jam : 3000 + 1000 = 4000 -->
+        <!-- 4 Jam : 4000 + 1000 = 5000 -->
+
+        <div class="container">
+            <h2 class="judul">Program Biaya Parkir</h2>
+            <div class="content">
+
+                <!-- Inputan Jam Masuk Parkir -->
+                <label for="jam_masuk">Masukan - Jam Masuk - Kendaraan : <span></span></label>
+                <input type="number" id="jam_masuk" /> <br><br>
+                <!-- Jam Masuk Parkir -->
+
+                <!-- Inputan Jam Keluar Parkir Kendaraan -->
+                <label for="jam_keluar">Masukan - Jam Keluar - Kendaraan : <span></span></label>
+                <input type="number" id="jam_keluar" /><br><br>
+                <!-- Inputan Jam Keluar Parkir Kendaraan -->
+
+                <!-- Total Biaya Parkir -->
+                <button onclick="total_biaya_parkir()">Hitung Biaya Parkir</button>
+                <p>Total Biaya Parkir Kendaraan : <span id="total_biaya"></span></p>
+            </div>
+        </div>
+
+        <script>
+            function total_biaya_parkir() {
+
+                // Menampung Input-an 
+                let jam_masuk = document.getElementById("jam_masuk").value;
+                let jam_keluar = document.getElementById("jam_keluar").value;
+
+                //  Diketahui
+                let biaya_awal = 3000;
+                let biaya_tambahan = 1000;
+
+                let lama_parkir = jam_keluar - jam_masuk ;
+                let biaya_total = biaya_awal
+
+                if (lama_parkir > 2) {
+                    biaya_total = biaya_total + (lama_parkir - 2) * biaya_tambahan;
+                }
+
+                document.getElementById("total_biaya").innerText = biaya_total;
+
+
+            }
+        </script>
+
+    </body>
+
+</html>

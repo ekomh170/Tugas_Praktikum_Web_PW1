@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menghitung Luas & Keliling | Bangun Datar Lingkaran</title>
+    </head>
+
+    <style>
+        .container {
+            margin: 30px;
+            padding: 20px;
+            border: 30px solid;
+        }
+
+        .judul {
+            text-align: center;
+        }
+
+        .content {
+            margin-left: 140px;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <h2 class="judul">Menghitung Luas & Keliling | Bangun Datar Lingkaran</h2>
+            <div class="content">
+                <label for="jari-jari">Masukan Jari-Jari Lingkaran : <span></span></label>
+
+                <!-- OnChange Cara Get Fungsi Di JS -->
+                <input type="number" id="jari_jari" onChange="hitungLingkaran()" />
+
+                <p>Luas Lingkaran : <span id="luas"></span></p>
+                <p>Keliling Lingkaran : <span id="keliling"></span></p>
+            </div>
+        </div>
+
+        <script>
+            // Fungsi JS
+            function hitungLingkaran() {
+                // Get ID JS Pake DOM
+                let jari_jari = document.getElementById("jari_jari").value;
+
+                // Cara Cek Variabel JS -> Jari Jari Lingkaran
+                // console.log(jari_jari)
+
+                // Rumus Lingkaran JS DOM
+                let luaslingkaran = Math.PI * jari_jari * jari_jari;
+                let kelilinglingkaran = 2 * Math.PI * jari_jari;
+
+                // Cara Memanipulasi Hasil Tag Berdasarkan ID (JS DOM)
+                document.getElementById("luas").innerText = luaslingkaran;
+                document.getElementById("keliling").innerText = kelilinglingkaran;
+
+                // Berarti Aturan ID/DOM HTML = Variabel JS
+
+            }
+        </script>
+    </body>
+
+</html>
