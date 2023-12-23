@@ -126,6 +126,22 @@ Lokasi Praktikum 11 = Directory Repo = <a href="https://github.com/ekomh170/Tuga
       <img src="Praktikum_11/tugas/assets/readme/menghitung_jumlah_2_bilangan.png"> 
 
 
-      
+<hr />
+
+<b>7. Nama Folder : Praktikum_12 :</b>
+
+<h3>Tugas Utama Praktikum 12 : </h3>
+
+Lokasi Praktikum 12 = Directory Repo = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_12">Praktikum_12/</a>
+
+- Praktikum 12 | <b>Menghitung Jumlah Dua Bilangan</b> = Lokasi = <a href="https://github.com/ekomh170/Tugas_Praktikum_Web_PW1/tree/ry_dev/Praktikum_12/Tugas_12/1_Form_Validation">Praktikum_12/Tugas_12/1_Form_Validation/form_validation.html</a>
+  
+1. Hasil Output Tugas : 
+
+      <img src="Praktikum_12/Tugas_12/readme_photo/Tugas12.png"> 
+
+      <img src="Praktikum_12/Tugas_12/readme_photo/Tugas12_2.png"> 
+
+
 
       
